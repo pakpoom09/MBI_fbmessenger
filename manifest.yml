@@ -1,0 +1,9 @@
+applications:
+- name: MBIbank-messenger
+
+  # using the random symbol will assign a unique hostname for this app
+  host: MBIbank-messenger
+
+  command: node server.js
+
+  memory: 1024M
